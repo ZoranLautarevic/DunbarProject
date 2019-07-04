@@ -1,0 +1,166 @@
+body {
+    font-family: Optima, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+
+a:link {
+    color: #055;
+}
+
+a:visited {
+    color: #404;
+}
+
+header {
+    padding: 1.4em 0 0.25em 0;
+    position: relative;
+    text-align: center;
+    background-color: #404;
+    color: white;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+header h1 {
+    color: #ffff00;
+    font-size: 250%;
+}
+
+header h2 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+#siteNav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid #dddd00;
+    width: 100%;
+    color: white;
+    background-color: #055;
+}
+
+#siteNav ol {
+    font-size: 90%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+#siteNav li {
+    display: inline;
+    padding-left: 1em;
+    margin-left: 1em;
+    border-left: 1px solid #dd0;
+}
+
+#siteNav li a:link,  #siteNav li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#siteNav li a:hover {
+    color: #dddd00
+}
+
+#siteNav li:first-child {
+    padding-left: 0;
+    border-left: none;
+    margin-left: 0;
+}
+
+#siteNav li a {
+    color: white;
+}
+
+#main {
+    padding: 0 2em 2em 12em;
+    position: relative;
+    background-color: #055;
+}
+
+#content {
+    background-color: white;
+    padding: 1em 5em;
+}
+
+#content h3 {
+    margin-top: 0;
+    text-align: center;
+
+}
+
+#img {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content p {
+    font-size: 90%;
+    line-height: 1.4;
+}
+
+#sidebar {
+    position: absolute;
+    width: 10em;
+    left: 1em;
+    top: 0.3em;
+}
+
+#sidebar h3 {
+    font-size: 100%;
+    color: white;
+    margin: 0;
+    font-weight: normal;
+    padding: 0.125em 0.25em;
+    background-color: #404;
+}
+
+#sidebar ol {
+    margin: 0 0 1em 0; 
+    background-color: white;
+    border: 2px solid #404;
+    border-top: 0;
+    margin: 0 0 1em 0;
+    padding: 0.125em 0.25em;
+}
+
+#sidebar li {
+    font-size: 85%;
+    display: block;
+    padding: 0.125em 0;
+}
+
+#sidebar li a:link, #sidebar li a:visited {
+    text-decoration: none;
+    color: #055;
+}
+
+#sidebar li a:hover {
+    color: #404;
+}
+
+footer {
+    background-color: #404;
+    color: white;
+    padding: 0.5em 5em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 85%;
+}
+
+footer p a:link, footer p a:visited {
+    color: #dddd00;
+}
